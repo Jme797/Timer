@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: rgb(58, 52, 52);
+  height: 130px;
+}
+.header img {
+  height: 90px;
+  margin-top: 20px;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  position: relative;
+  bottom: 25px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+}
+.headerContent {
+  width: 380px;
+  margin: 0 auto;
+}
+.timerContainer {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(221, 221, 221);
+  border: 10px solid rgb(105, 105, 105);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  
+}
+.startDiv {
+  width: 150px;
+  height: 110px;
+  background-color: rgb(123, 248, 123);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.stopDiv {
+  width: 150px;
+  height: 110px;
+  background-color: rgb(253, 65, 65);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.timerContainer img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.startDiv img {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+.stopDiv img {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.timerSet {
+  background-color: transparent;
+  width: 250px;
+  height: 50px;
+  border: none;
+  position: absolute;
+  bottom: 140px;
+  left: 33px;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(87, 87, 87);
+}
+.timerSet:focus {
+  outline: none;
+}
+.timerDisplay {
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  font-size: 30px;
+  left: 80px;
+  color: rgb(110, 110, 110);
+}
+.timerDisplayRunning {
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  font-size: 50px;
+  left: 30px;
+  color: rgb(110, 110, 110);
+}
